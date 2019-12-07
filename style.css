@@ -9,11 +9,28 @@ html {
 
 body {
     font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 300;
 }
 
 body, html {
     padding: 0;
     margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+ion-icon {
+    font-size: 4rem;
+    color: var(--primary);
+    height: 4rem;
+    display: block;
+    margin: 0 auto;
+    line-height: 0;
 }
 
 .landing__hero {
@@ -30,8 +47,6 @@ body, html {
     margin: 0 0 1rem 0;
     color: white;
     font-size: 3rem;
-    font-weight: 300;
-    text-transform: uppercase;
 }
 
 .landing__hero__cta {
@@ -122,4 +137,15 @@ hr {
     margin: 1.5rem auto;
     color: var(--primary);
     border: 1px solid var(--primary);
+}
+
+.four-columns {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.column__title {
+    text-align: center;
 }
