@@ -97,3 +97,29 @@ body, html {
 .navbar__menu__item:hover {
     background-color: rgba(255,255,255,.3);
 }
+
+.landing__section {
+    height: 100vh;
+    display: flex;
+    font-size: 1.15rem;
+}
+
+.landing__section__header {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.landing__section__description {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+hr {
+    width: 10rem;
+    margin: 1.5rem auto;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
